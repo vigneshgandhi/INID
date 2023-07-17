@@ -1,0 +1,34 @@
+#img1{
+    padding: 10px;
+    height: 400px;
+    opacity: 0.8;
+}
+
+#color{
+    background: linear-gradient(to left,teal 30%,lime 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+#color-2{
+    background: linear-gradient(to left,teal 30%,lime 90%);
+    font-style: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+#color-3{
+    background: linear-gradient(to left,teal 30%,lime 90%);
+    font-style: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#h5{
+    background-color: black;
+    border-radius: 10px;
+}

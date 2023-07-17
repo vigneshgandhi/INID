@@ -1,0 +1,15 @@
+#Stocks{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 35vh auto auto auto;
+    text-align: center;
+    border-radius: 1ex;
+}
+
+#gradtext{
+    background: linear-gradient(45deg,teal 50%,#E151AF 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

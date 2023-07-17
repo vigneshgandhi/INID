@@ -1,0 +1,61 @@
+.Navbar{
+    margin: 5px;
+    margin-top: 10px;
+    padding:0px 10px;
+    /* padding: 5px; */
+}
+
+.navbar{
+    border-radius: 15px !important;
+    background-color: black !important;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-menu{
+    background-color: black !important;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right,darkcyan,darkred,darkorange) 1;
+    border-radius: 5px;
+}
+/*
+url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='1 0 22 41'%3e%3cpath stroke='rgba%28355 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+*/
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='1 0 22 41'%3e%3cpath stroke='rgba%28355 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@font-face {
+    font-family: 'aquire';
+    src: url('../../../public/AquireBold-8Ma60.otf');
+}
+*{
+    font-family: 'aquire';
+    font-size: 16px;
+    /* color: rgb(155, 250, 11); */
+}
+
+a{
+    color: #2EFF2E !important;
+}
+ul li a{
+    color: darkorange !important;
+}
+.img{
+    margin-right: 5px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: darkorange !important;
+    width: auto;
+    height: 40px;
+    color: white !important;
+}
