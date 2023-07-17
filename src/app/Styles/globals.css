@@ -1,0 +1,13 @@
+.scrapper{
+  background: linear-gradient(to left,darkorchid,darkorange,rgb(31, 245, 245));
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 100%;
+  flex: 1;
+  /* height: 100%; */
+}
+
+html,body{
+  height: 100% !important;
+  overflow: auto;
+}

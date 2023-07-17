@@ -1,0 +1,99 @@
+.img-fluid{
+    height: 498.2px;
+}
+.head-text-2{
+    text-align: center;
+    background: linear-gradient(to right,teal 20%,#FF0080);
+     /* background: linear-gradient(to right,darkorange,darkcyan); */
+    background-clip: text;
+    font-size: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+input{
+    color: #FF0080 !important;
+}
+
+.paratext{
+    background: linear-gradient(to right,teal 30%,#FF0080 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-style: bold;
+}
+
+
+.card-header{
+    padding-top: 15px;
+    background-color: black;
+}
+
+.card-body{
+    background-color: aliceblue;
+}
+
+.form-control{
+    /* overflow: unset; */
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right,rgb(49, 240, 240) ,rgb(22, 22, 244)) 1;
+    border-radius: 50em;
+}
+
+.form-label{
+    /* background-color: ; */
+    background: linear-gradient(to right,teal 30%,#FF0080);
+     /* background: linear-gradient(to right,darkorange,darkcyan); */
+    background-clip: text;
+    /* text-align: center; */
+    font-size: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.btn{
+    width: 100%;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50em;
+    border-image: linear-gradient(to right,rgb(49, 240, 240) ,rgb(22, 22, 244) ) 1;
+    /* background: linear-gradient(to right,teal 20%,#FF0080);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; */
+    color: #FF0080;
+}
+
+.btn:hover{
+    border-width: 4px;
+    border-style: solid;
+    outline: none;
+    border-radius: 50em;
+    border-image: linear-gradient(to right,rgb(93, 195, 254) 20%,darkorchid 100%) 1;
+    background-color: rgba(34, 255, 203, 0.996);
+    background: linear-gradient(to left,darkorange,teal 50%);
+    /* --p-border-shadow:none */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* color: darkorchid; */
+    font-weight: bold;
+}
+
+
+.card{
+    background-color: black;
+    margin-left: -9px;
+}
+
+#boxarea-r{
+    background-color: rgba(240, 248, 255, 0.132) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: saturate(-1%) blur(5px);
+}

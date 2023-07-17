@@ -1,0 +1,80 @@
+#spotimage{
+    width: 30%;
+    height: 300px;
+}
+#cardtrack{
+    display: flex;
+    flex-direction: row;
+}
+
+#cardmusictrack,.card{
+    background-color: black;
+}
+
+#titletrack{
+    background: linear-gradient(45deg,teal,#B2FF59);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#btnfreak{
+    margin-top: -10px !important;
+    background: linear-gradient(45deg,darkorange,lime);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 130px;
+    color: transparent;
+    margin-top: 10px;
+    border-width: 4px;
+    border-image: linear-gradient(to left, #00C853, #B2FF59) 1;
+    text-align: center !important;
+    border-style: solid;
+}
+
+.button-spot{
+    background-color: black !important;
+}
+
+
+
+#btnfreak:hover{
+    background: linear-gradient(45deg,darkorchid,teal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding-right: 130px; */
+    color: transparent;
+    margin-top: 10px;
+    border-image: linear-gradient(to left, darkorchid, teal) 1;
+    text-align: center !important;
+    border-style: solid;
+}
+#cardmusictrack {
+    padding-right: 20px;
+    position: relative;
+}
+
+#btnfreak {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    padding-right: 10px;
+}
+
+.spotplayer,.PlayerRSWP{
+    border-radius: 15px;
+}
+
+.PlayerRSWP button{
+    color: limegreen !important;
+}
+
+#artisttext{
+    color: darkorchid;
+}
+.rswp_progress,.rswp_duration{
+    color: cyan !important;
+}

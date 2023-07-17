@@ -1,0 +1,24 @@
+#articlehome{
+    background-color: black !important;
+    padding: 26px;
+    margin: 30px auto !important;
+    border-radius: 12px;
+}
+
+#articlehead{
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(45deg,#d72631 50%,#077b8a 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#article-body{
+    background: linear-gradient(45deg,fuchsia 20%,#077b8a 40%,#ecc19c 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

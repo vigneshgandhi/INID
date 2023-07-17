@@ -1,0 +1,121 @@
+#container-about{
+    background-color: rgba(240, 248, 255, 0.292) !important;
+    padding: 60px;
+    backdrop-filter: saturate(-10%) blur(5px) !important;
+    border-radius: 15px;
+    margin-top: 100px;
+    width: 90%;
+    -webkit-backdrop-filter: saturate(-100%) blur(5px) !important;
+}
+
+#achead{
+    /* margin-top: 10px; */
+    background: linear-gradient(to right,#FF0080,darkorange 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+
+#article{
+    background: linear-gradient(45deg,limegreen ,teal 60%,rgb(77, 252, 252) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#acbody,#achead{
+    background-color: black !important;
+    backdrop-filter: saturate(-1%) blur(10px);
+    -webkit-backdrop-filter: saturate(-1%) blur(10px);
+}
+
+.card-header,#redcard,#features{
+    background-color: black;
+}
+#redcard-1{
+    background-color: aliceblue;
+}
+
+#h5About,#quotes{
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(45deg, lime 30%,teal 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* margin-top: 10px; */
+}
+
+.accordion-item{
+    background-color: black !important;
+}
+#paralock{
+    font-size: 35px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    background: linear-gradient(40deg,teal 45%,lime 55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.list-group-item{
+    background-image: linear-gradient(45deg, #FF0080 40%,darkorange 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+li.list-group-item{
+    background-color: rgba(0, 0, 0, 0.752) !important;
+}
+
+#NewsAndUpdate{
+    margin-top: 70px;
+}
+
+#about-image{
+    height: 300px;
+}
+
+#nrs5{
+    /* margin-top: 15px; */
+    padding-top: 25px;
+}
+
+#mask{
+    margin-top: 15px;
+}
+.name,#name{
+    background-image: linear-gradient(45deg, #FF0080 15%,cyan 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+#selfquotes{
+    text-align: center;
+    background-image: linear-gradient(45deg, darkorange 50%,darkorchid 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+#contabout{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px !important;
+    border-radius: 15px;
+}
+
+#card-about{
+    height: 70%;
+}
